@@ -1,0 +1,6 @@
+# Private project-local database credentials
+config.local.php
+
+# Uploaded videos are local runtime data, not source files
+/storage/videos/*
+!/storage/videos/.htaccess
